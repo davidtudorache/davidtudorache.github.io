@@ -64,5 +64,8 @@ video {
     object-fit: cover;
     z-index: -100;
   }
+  body {
+    text-align: center;
+  }
 
 }
