@@ -19,6 +19,7 @@ h5 {  /*centres text*/
 }
 
 p { /*lines up the paragraph text*/
+  text-align: center;
   padding-right: 10%;
 }
 
@@ -50,5 +51,4 @@ video {
   max-width: 50%;
   padding-left: 5%;
   padding-right: 1%;
-  padding-bottom: 5%;
 }
