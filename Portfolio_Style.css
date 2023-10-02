@@ -68,19 +68,13 @@ html, body {
   height: 100%;
 }
 
-h5 {
-  float: right;
-  max-width: 10%;
-}
-
 html {
-    display: table;
+    display: block;
     margin: auto;
 }
 
 body {
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
 }
 
 }
