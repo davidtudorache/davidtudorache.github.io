@@ -69,8 +69,9 @@ video {
     min-height:100vh;
   }
   h5{
-    display:flex; flex-direction:column; justify-content:center;
-    min-height:100vh;
+    float: right;
+    max-width: 50%;
+    padding-right: 10%;
   }
 
 }
