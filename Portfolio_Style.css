@@ -1,0 +1,53 @@
+body {
+  /*colour of background + body text font setup*/
+  background-color: white;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: large;
+  height: 10%;    /* Height set to percentage makes website responsive */
+  font-family: sans-serif;
+  padding-left: 10%;
+}
+
+h5 {  /*centres text*/
+  padding-left: 10%;
+  padding-right: 10%;
+  /*override command used as backstrap icon stylesheet is changing text colour*/
+  color: grey !important;
+}
+
+p { /*lines up the paragraph text*/
+  padding-right: 10%;
+}
+
+ul{ /*get rid of bullet points*/
+  list-style: none;
+}
+
+#icons li {
+  display: inline; /*lines up icon options side by side*/
+}
+
+#icons {
+  /*moves icons under heading*/
+  padding-left: 7%;
+}
+
+.container {
+  /*puts both text and images in center*/
+  margin: auto;
+}
+  
+img {
+  /*defines width of images*/
+  max-width: 50%
+}
+video {
+  /*defines width of videos*/
+  float: left;  
+  max-width: 50%;
+  padding-left: 5%;
+  padding-right: 1%;
+}
