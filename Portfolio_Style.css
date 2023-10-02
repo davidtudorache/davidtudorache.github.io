@@ -54,31 +54,3 @@ video {
   padding-left: 5%;
   padding-right: 1%;
 }
-
-/* Use a media query to add a breakpoint at 200px: */
-@media screen and (max-width: 800px) {
-  video {
-    /* The width is 100% and height is 100%, when the viewport is 200px or smaller */
-    max-width: 100%;
-    height: 300px;
-  }
-  h1 {
-    max-width: 100%;
-    height: 100px;
-  }
-  
-  h5 {  /*centres text*/
-    max-width: 100%;
-    height: 10px;
-  }
-  
-  #icons {
-    margin-top: 15%;
-  }
-  
-  p { /*lines up the paragraph text*/
-    max-width: 100%;
-    height: 100px;
-  }
-
-}
