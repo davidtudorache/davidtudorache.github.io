@@ -13,6 +13,7 @@ h1 {
 }
 
 h5 {  /*centres text*/
+  max-width: 100%;
   padding-right: 10%;
   padding-left: 10%;
   /*override command used as backstrap icon stylesheet is changing text colour*/
