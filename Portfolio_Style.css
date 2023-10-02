@@ -68,6 +68,10 @@ html, body {
   height: 100%;
 }
 
+h5 {
+  float: right; 
+}
+
 html {
     display: table;
     margin: auto;
