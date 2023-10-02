@@ -20,6 +20,7 @@ h5 {  /*centres text*/
 
 p { /*lines up the paragraph text*/
   padding-right: 10%;
+  padding-left: 10%;
 }
 
 ul{ /*get rid of bullet points*/
