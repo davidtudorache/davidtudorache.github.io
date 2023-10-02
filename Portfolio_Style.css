@@ -68,5 +68,9 @@ video {
     display:flex; flex-direction:column; justify-content:center;
     min-height:100vh;
   }
+  h5{
+    display:flex; flex-direction:column; justify-content:center;
+    min-height:100vh;
+  }
 
 }
