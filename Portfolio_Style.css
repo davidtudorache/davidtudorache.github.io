@@ -19,7 +19,7 @@ h5 {  /*centres text*/
 }
 
 p { /*lines up the paragraph text*/
-  text-align: center;
+  text-align: right;
   padding-right: 10%;
 }
 
