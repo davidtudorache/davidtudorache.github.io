@@ -19,7 +19,6 @@ h5 {  /*centres text*/
 }
 
 p { /*lines up the paragraph text*/
-  float: right;
   padding-right: 10%;
 }
 
