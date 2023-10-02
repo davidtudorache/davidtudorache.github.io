@@ -58,24 +58,15 @@ video {
 /* Use a media query to add a breakpoint at 200px: */
 @media screen and (max-width: 200px) {
   video {
-    /* The width is 100%, when the viewport is 200px or smaller */
+    /* The width is 100% and height is 100%, when the viewport is 200px or smaller */
     width: 100%;
-    height: 600px;
+    height: 100%;
     object-fit: cover;
     z-index: -100;
   }
-html, body {
-  height: 100%;
-}
-
-html {
-    display: table;
-    margin: auto;
-}
-
-body {
-    display: table-cell;
-    vertical-align: middle;
-}
+  body {
+    display:flex; flex-direction:column; justify-content:center;
+    min-height:100vh;
+  }
 
 }
