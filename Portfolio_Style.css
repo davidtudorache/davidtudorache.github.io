@@ -69,6 +69,7 @@ html, body {
 }
 
 h5 {
+  float: right;
   max-width: 50%;
 }
 
