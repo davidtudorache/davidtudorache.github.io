@@ -55,7 +55,7 @@ video {
   padding-right: 1%;
 }
 
-/* Use a media query to add a breakpoint at 800px: */
+/* Use a media query to add a breakpoint at 200px: */
 @media screen and (max-width: 200px) {
   video {
     /* The width is 100%, when the viewport is 800px or smaller */
