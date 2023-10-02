@@ -64,8 +64,18 @@ video {
     object-fit: cover;
     z-index: -100;
   }
-  body {
-    float: left;
-  }
+html, body {
+  height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
 
 }
