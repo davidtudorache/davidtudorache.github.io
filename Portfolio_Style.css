@@ -10,13 +10,13 @@ h1 {
   height: 10%;    /* Height set to percentage makes website responsive */
   max-width: 50%;
   font-family: sans-serif;
-
+  padding-left: 10%;
 }
 
 h5 {  /*centres text*/
   float: right;
   max-width: 50%;
-
+  padding-left: 10%;
   padding-right: 10%;
   /*override command used as backstrap icon stylesheet is changing text colour*/
   color: grey !important;
