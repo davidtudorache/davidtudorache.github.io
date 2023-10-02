@@ -19,6 +19,8 @@ h5 {  /*centres text*/
 }
 
 p { /*lines up the paragraph text*/
+  float: right;
+  max-width: 50%;
   padding-right: 10%;
 }
 
