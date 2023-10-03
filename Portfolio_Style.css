@@ -19,11 +19,11 @@ h5 {  /*centres text*/
   color: grey !important;
 }
 
-p { /*lines up the paragraph text*/
-  float: right;
-  max-width: 50%;
-  padding-right: 10%;
+h6 {
+  /*override command used as backstrap icon stylesheet is changing text colour*/
+  color: grey !important;
 }
+
 
 ul{ /*get rid of bullet points*/
   list-style: none;
@@ -40,17 +40,23 @@ ul{ /*get rid of bullet points*/
 
 .container {
   /*puts both text and images in center*/
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
-  
-img {
-  /*defines width of images*/
+
+img {/*defines width of images*/
   max-width: 50%
 }
+
 video {
-  /*defines width of videos*/
-  float: left;  
-  max-width: 50%;
+  /*defines width of video*/
+  max-width: 95%
+}
+.left {/*sets intial size of side*/
   padding-left: 5%;
-  padding-right: 1%;
+  flex-basis: 60%;
+}
+
+.right {/*sets intial size of side*/
+  flex-basis: 40%
 }
