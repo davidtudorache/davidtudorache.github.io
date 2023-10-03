@@ -35,7 +35,7 @@ ul{ /*get rid of bullet points*/
 
 #icons {
   /*moves icons under heading*/
-  padding-left: 7%;
+  padding-inline-start: 7%;
 }
 
 .container {
@@ -45,7 +45,7 @@ ul{ /*get rid of bullet points*/
 }
 
 img {/*defines width of images*/
-  max-width: 50%
+  max-width: 95%
 }
 
 video {
