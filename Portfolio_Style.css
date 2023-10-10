@@ -66,11 +66,12 @@ img {/*defines width of images*/
   .img { /*Make image as big as the screen will allow for visbility*/
     max-width: fit-content;
   }
-  .picture { /*gets rid of padding if on small screen*/
-    padding-left: 0%;
+  .picture { /*centers image on small screen*/
+    padding-left: 5%;
   }
-  .text {/*gets rid of padding if on small screen + aligns text to center*/
-    padding-right: 0%;
+  .text {/*aligns text to center*/
+    padding-right: 5%;
+    padding-left: 5%;
     text-align: center;
   }
 }
