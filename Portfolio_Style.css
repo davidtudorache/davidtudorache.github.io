@@ -60,16 +60,16 @@ img {/*defines width of images*/
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
-  .project{
+  .project{ /*Used block layout since it is easier to see on phone*/
     display: block;
   }
-  .img {
+  .img { /*Make image as big as the screen will allow for visbility*/
     max-width: fit-content;
   }
-  .picture {
+  .picture { /*gets rid of padding if on small screen*/
     padding-left: 0%;
   }
-  .text {
+  .text {/*gets rid of padding if on small screen + aligns text to center*/
     padding-right: 0%;
     text-align: center;
   }
