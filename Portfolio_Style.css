@@ -38,25 +38,39 @@ ul{ /*get rid of bullet points*/
   padding-left: 7%;
 }
 
-.container {
-  /*puts both text and images in center*/
-  display: flex;
-  justify-content: center;
+.project {
+  /*Grid layout allows you to display items in rows and columns*/
+  display: grid;
+  grid-template-columns: auto auto; /* creates two columns of default size*/
+  row-gap: 5%; /*creates small gap between each row so pcitures not stuck to each other */
 }
 
 img {/*defines width of images*/
-  max-width: 95%
+  max-width: 95%;
 }
 
-video {
-  /*defines width of video*/
-  max-width: 95%
-}
-.left {/*sets intial size of side*/
-  padding-left: 5%;
-  flex-basis: 60%;
+.text {/*moves text closer to the image*/
+  text-align: left;
+  padding-right: 20%;
 }
 
-.right {/*sets intial size of side*/
-  flex-basis: 40%
+.picture {/*moves images to centre of page*/
+  padding-left: 20%;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .project{
+    display: block;
+  }
+  .img {
+    max-width: fit-content;
+  }
+  .picture {
+    padding-left: 0%;
+  }
+  .text {
+    padding-right: 0%;
+    text-align: center;
+  }
 }
