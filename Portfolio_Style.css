@@ -38,7 +38,7 @@ ul{ /*get rid of bullet points*/
   padding-left: 7%;
 }
 
-.project {
+.projects {
   /*Grid layout allows you to display items in rows and columns*/
   display: grid;
   grid-template-columns: auto auto; /* creates two columns of default size*/
@@ -60,7 +60,7 @@ img {/*defines width of images*/
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
-  .project{ /*Used block layout since it is easier to see on phone*/
+  .projects{ /*Used block layout since it is easier to see on phone*/
     display: block;
   }
   .img { /*Make image as big as the screen will allow for visbility*/
