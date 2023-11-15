@@ -1,0 +1,89 @@
+body {
+  /*colour of background + body text font setup*/
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75%;
+}
+
+h1 {
+  height: 10%;    /* Height set to percentage makes website responsive */
+  max-width: 100%;
+  padding-left: 10%;
+  /*defines size of font*/
+  font-size: 40px;
+}
+
+h3 {  /*centres text*/
+  padding-right: 10%;
+  padding-left: 10%;
+  /*Text colour set to grey*/
+  color: grey;
+}
+
+h5 {
+  /*Text colour set to grey*/
+  color: grey
+}
+
+#icons img {
+  /*defines width of images*/
+  max-width: 95%;
+}
+
+#icons {
+  /*moves icons under heading*/
+  padding-left: 10%;
+}
+
+#icons .icon {
+  display:inline-block;
+  /*defines height and width of icons*/
+  width: 2%;
+  height: 2%;
+  /*distance between icons rest of page*/
+  padding-bottom: 2%;
+}
+
+.icon:hover {
+  filter: brightness(300%);
+}
+
+.projects {
+  /*Grid layout allows you to display items in rows and columns*/
+  display: grid;
+  grid-template-columns: 50% 50%; /* creates two columns of 50% size (percent used for scabalility)*/
+  row-gap: 5%; /*creates small gap between each row so projects don't overlap */
+  column-gap: 10%;  /*creates small gap between each column so evidence and description not stuck to each other*/
+}
+
+.project_description {
+  /*moves text closer to the image*/
+  text-align: left;
+  padding-right: 30%;
+}
+
+.evidence img {
+  /*defines width of images*/
+  max-width: 95%;
+  /*moves images to centre of page*/
+  padding-left: 20%;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .projects{ 
+    grid-template-columns: 70% 30%; /* evidence: 70%, project_description: 30% (percent used for scabalility)*/
+    row-gap: 5%; /*creates small gap between each row so projects don't overlap */
+    column-gap: 5%;  /*creates small gap between each column so evidence and description not stuck to each other*/  
+  }
+  
+  #icons .icon {
+    /*defines height and width of icons*/
+    width: 5%;
+    height: 5%;
+  }
+  .evidence img {
+    /*re-writes padding*/
+    padding-left: 10%;
+  }
+}
