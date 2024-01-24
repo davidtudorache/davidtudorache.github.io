@@ -1,0 +1,45 @@
+/* Header/Logo Title */
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+.header button {
+    display: inline-block; /* Add this property to make buttons appear inline */
+    width: auto; /* Adjusted width to fit content */
+    margin-right: 10px; /* Added margin between buttons */
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+}
+
+.header button:hover {
+    background: var(--color-primary-dark);
+}
+
+.header button:active {
+    transform: scale(0.98);
+}
+
+.header .text {
+    text-align: center;
+}
+
+.header .link {
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header .link:hover {
+    text-decoration: underline;
+}
